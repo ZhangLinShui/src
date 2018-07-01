@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Cmap.cpp">
+      <Filter>背景</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyManager.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapBuffer.cpp">
+      <Filter>双缓冲</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zuoye_1_12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpact.cpp">
+      <Filter>碰撞检测</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>boss类</Filter>
+    </ClCompile>
+    <ClCompile Include="Props.cpp">
+      <Filter>道具</Filter>
+    </ClCompile>
+    <ClCompile Include="PropsManager.cpp">
+      <Filter>道具</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cmap.h">
+      <Filter>背景</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyManager.h">
+      <Filter>敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapBuffer.h">
+      <Filter>双缓冲</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>管理类父类</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpact.h">
+      <Filter>碰撞检测</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>boss类</Filter>
+    </ClInclude>
+    <ClInclude Include="Props.h">
+      <Filter>道具</Filter>
+    </ClInclude>
+    <ClInclude Include="PropsManager.h">
+      <Filter>道具</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="背景">
+      <UniqueIdentifier>{df8d468c-ea9a-4766-b026-3256d2f6cc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="子弹">
+      <UniqueIdentifier>{44a1de56-73be-4358-92f4-55299e3b357f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人">
+      <UniqueIdentifier>{92350a23-b75e-4cda-b114-0ed81fdb7be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="玩家">
+      <UniqueIdentifier>{d2790a9f-40a0-45d9-90ab-391905ebbe9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="双缓冲">
+      <UniqueIdentifier>{cdb57df0-9bb3-48f1-bdec-72c91b3be08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{ce7e759b-05e5-436c-9184-5fb5c06fcbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{9fd1e461-737c-41a7-a6a1-f0b54ac95419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理类父类">
+      <UniqueIdentifier>{fca29bd4-0c90-41a7-b025-89c650cd181c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="碰撞检测">
+      <UniqueIdentifier>{3819a531-75b7-48b2-9948-b78604c33138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boss类">
+      <UniqueIdentifier>{aa688674-2343-4c02-b95c-4513dbc1f1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="道具">
+      <UniqueIdentifier>{6b7490b4-fcb7-45a1-9091-1754a06c3d80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

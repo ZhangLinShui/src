@@ -1,0 +1,9 @@
+﻿1>------ 已启动生成: 项目: zuoye_1_12, 配置: Debug Win32 ------
+1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+1>Cmap.cpp
+1>g:\vs2017\visual c++ 项目\zuoye_1_12\src\cmap.cpp(42): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+1>zuoye_1_12.vcxproj -> G:\vs2017\Visual C++ 项目\zuoye_1_12\src\../bin\zuoye_1_12.exe
+1>zuoye_1_12.vcxproj -> ../bin\zuoye_1_12.pdb (Full PDB)
+1>已完成生成项目“zuoye_1_12.vcxproj”的操作。
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
