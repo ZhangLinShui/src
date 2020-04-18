@@ -5,18 +5,18 @@ class Cmap;
 class CPlayer 
 {
 	
-	short cols;///<Ä¬ÈÏÁÐÊý
-	int MaxCols;///<×î´ó×Ö·û¸ö¸öÊý
+	short cols;///<Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	int MaxCols;///<ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	int DoubleByte;
-	COORD pos;///<ÈËÎïÎ»ÖÃ
-	vector<string> vec;///<ÈËÎïÎÄ±¾Êý¾Ý
+	COORD pos;///<ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
+	vector<string> vec;///<ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½
 	CEnemy *m_pEnemy;
 	Cmap*m_pMap;
 	//CBullet*m_pBullet;
 public:
-	int AttributeOj;//É±µÐÊý
+	int AttributeOj;//É±ï¿½ï¿½ï¿½ï¿½
 	bool bDead;
-	short rows;///<×î´óÐÐÊý
+	short rows;///<ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	void Draw();
 	CPlayer(COORD Pos);
 	int  Move();
@@ -36,5 +36,6 @@ public:
 		return Pos;
 	}
 	~CPlayer();
+	//å˜¿å˜¿ æœ¬åœ°æ›´æ”¹ æµ‹è¯•æäº¤
 };
 
