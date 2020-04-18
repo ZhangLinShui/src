@@ -36,6 +36,5 @@ public:
 		return Pos;
 	}
 	~CPlayer();
-	//嘿嘿 本地更改 测试提交
 };
 
